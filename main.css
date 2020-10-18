@@ -1,0 +1,346 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-studio-color: #000000;
+  --primary-bg-color: #ffffff;
+  --add-bg-color: #f5f4fa;
+  --add-text-color: #ffffff;
+  --add-accent-color: rgba(33, 150, 243, 0.9);
+  --footer-bg-color: #2f303a;
+  --footer-add-text-color: rgba(255, 255, 255, 0.6);
+}
+
+.page {
+  margin: 0px;
+  color: var(--primary-bg-color);
+  background-color: var(--primary-bg-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* цвет основого текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* цвет акцента #2196F3 */
+/* дополнительный цвет текста rgba(255, 255, 255, 0.6);*/
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона футера #2F303A */
+
+/* logo */
+.logo-web {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-studio {
+  color: var(--logo-studio-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  text-decoration: none;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* contact-nav */
+
+.contact-link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* hero */
+
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+}
+
+.hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+
+  color: var(--logo-studio-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+/* section */
+.invisible-title {
+  display: none;
+}
+.section-title {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* rules */
+.rules {
+  text-align: center;
+}
+.rules .title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.rules .text {
+  margin-top: 0px;
+  margin-bottom: 94px;
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* about-us */
+.about-us {
+  text-align: center;
+}
+.about-us .title {
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* our-team */
+.our-team {
+  text-align: center;
+}
+.our-team .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.our-team .career-title {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.our-team .social-networks {
+  color: var(--primary-text-color);
+}
+
+/* button */
+.primary-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  border: 1px solid transparent;
+
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-decoration: none;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  border: 1px solid transparent;
+
+  color: var(--accent-color);
+  background-color: var(--add-bg-color);
+
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* filter-button */
+.filter-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  border: 1px solid transparent;
+
+  color: var(--title-text-color);
+  background-color: var(--add-bg-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  text-decoration: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  border: 1px solid transparent;
+
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Portfolio.html */
+
+/* project-list */
+.prjct-link {
+  text-decoration: none;
+}
+
+.project-name .title {
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.project-name .subtitle {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.9;
+}
+.project-name .section-text {
+  color: var(--add-text-color);
+
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-bg-color);
+  text-decoration: none;
+}
+
+/* logo-footer */
+.logo-studio-footer {
+  color: var(--add-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+/* adress */
+.footer .location {
+  color: var(--add-text-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
